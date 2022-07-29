@@ -40,12 +40,13 @@ WHERE (de.to_date = '9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
-
+-- Sample Query 1. Mentorship-eligibility grouped by title
 SELECT COUNT(title), title
 FROM mentorship_eligibility
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 
+-- Sample Query 2. Salaries for retiring employees
 SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name,
 		s.salary
 FROM employees as e
