@@ -3,10 +3,24 @@
 Pewlett-Hackard is a large company who would like to answer questions about their retiring workforce. Using SQL, the report will attempt to answer questions regarding the "silver tsumani". This is referring to a large number of employees who are approaching retirment and their positions need to be filled. The analysis will include queries run regarding which employees are retiring, departments they come from, and staff who can help mentor the next generation. Lastly, we will summarize our findings by looking into the future state of the company.
 
 ## Resources
-Data: [departments.csv](Data/departments.csv), [dept_emp.csv](Data/dept_emp.csv), 
-[dept_manager.csv](Data/dept_manager.csv), [employees.csv](Data/employees.csv),
-[salaries.csv](Data/salaries.csv), [titles.csv](Data/titles.csv)  
-Software: PgAdmin 4 6.8, PostgreSQL 11.16, Visual Studio Code 1.69.2, [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com)
+#### Software:
+- PgAdmin 4 6.8
+- PostgreSQL 11.16
+- Visual Studio Code 1.69.2
+- [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com)
+
+#### Data: 
+- [departments.csv](Data/departments.csv)
+- [dept_emp.csv](Data/dept_emp.csv), 
+- [dept_manager.csv](Data/dept_manager.csv)
+- [employees.csv](Data/employees.csv)
+- [salaries.csv](Data/salaries.csv)
+- [titles.csv](Data/titles.csv)
+
+## Relational Database Diagram
+Entity Relationship Diagram (ERD) for Pewlett-Hackard workforce:
+![](Schema/EmployeeDB.png)
+
 
 ## Results
 During the data organization, I queried all employees retiring(between 62 and 65 years old) and their titles as well as employees who are mentorship eligible (55 years old) and their titles. The below figure shows all retiring employees by their department.
