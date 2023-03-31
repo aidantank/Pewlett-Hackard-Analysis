@@ -1,4 +1,4 @@
-# Pewlett-Hackard-Analysis
+# Pewlett-Hackard Analysis
 ## Overview
 Pewlett-Hackard is a large company who would like to answer questions about their retiring workforce. Using SQL, the report will attempt to answer questions regarding the "silver tsumani". This is referring to a large number of employees who are approaching retirment and their positions need to be filled. The analysis will include queries run regarding which employees are retiring, departments they come from, and staff who can help mentor the next generation. Lastly, we will summarize our findings by looking into the future state of the company.
 
